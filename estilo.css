@@ -11,13 +11,12 @@ tr:hover {
     cursor: pointer;
     
 }
- footer{
+ footer {
    
     background-color: #c9d2d0;
     cursor: pointer;
-
-  }
-  h1:hover {
+}
+h1:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -25,4 +24,40 @@ h2:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-        
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+}
+.widget {
+    width: 750;
+    margin: 0.0rem;
+}
+.widget p {
+    display: inline-block;
+    line-height: 0.7rem;
+}
+.fecha {
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0.3125rem;
+    background: rgba(149, 162, 153, 0.5);
+    
+}
+.reloj {
+    font-family: 'Oswald',sans-serif ;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 0.3125rem;
+    background:rgba(149, 162, 153, 0.5);
+ 
+    
+}
+.reloj .segundos,
+.reloj .ampm {
+    font-family: 'Oswald',sans-serif ;
+    padding: 0.1px;
+    text-align: center;
+    font-size: 0.8rem;
+    display:inline-block;
+}

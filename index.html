@@ -1,17 +1,67 @@
 
 <html>
-<head> 
-<title> Diario_El Faro </title>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@500&family=Oswald&display=swap" rel="stylesheet">
-<link  rel="stylesheet"href="estilo.css">
-</head>
 
-<body>
+<head> 
+  
+<title> Diario_El Faro </title>
 <img src="faro3.png" alt="Trulli" width="110" height="150">
 <h1>EL FARO</h1>
-<p> Viernes 01 de Abril 2022 </p>
-<footer>
+<link  rel="stylesheet"href="estilo.css">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@500&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="widget">
+      <div class="fecha">
+        <p id="diasemana" class="diasemana" ></p>
+        <p id="dia" class="dia"></p>
+        <p>de </p>
+        <p id="mes" class="mes"></p>
+        <p>del </p>
+        <p id="year" class="year"></p>
+        </div>
+        <div class="reloj">
+        <p id="horas" class="horas"></p>
+        <p>:</p>
+        <p id="minutos" class="minutos" ></p>
+        <div class="caja-segundos">
+        <p id="ampm" class="ampm"></p>
+        <p id="segundos" class="segundos"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="fecha.js"></script>
+  
+  
 
+    <form action="">
+
+      <div>
+
+        <label for="nombre">Escribe titulo:</label><br>
+
+        <input type="text" id="nombre">
+
+      </div>
+
+      <div>
+
+        <label for="mensaje">Describir el articulo</label><br>
+
+        <textarea id="mensaje" cols="30" rows="5"></textarea>
+
+      </div>
+
+      <div>
+
+        <input type="button" value="enviar mensaje" onclick="leeTexto()">
+
+      </div>
+
+    </form>
+    <script src="leerTexto.js"></script>
+ <footer>
  <p2 style="color:#31231e">Inicio</p2>
  <p2 style="color:#31231e">Noticias</p2>
  <p2 style="color:#31231e">Deportes</p2>
