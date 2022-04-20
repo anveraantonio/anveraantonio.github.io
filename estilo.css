@@ -61,3 +61,16 @@ h2:hover {
     font-size: 0.8rem;
     display:inline-block;
 }
+.form {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    background:rgba(149, 162, 153, 0.5);
+}
+
+h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
