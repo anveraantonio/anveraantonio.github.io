@@ -1,16 +1,29 @@
 
+<!DOCTYPE html>
 <html>
-
 <head> 
-  
 <title> Diario_El Faro </title>
-<img src="faro3.png" alt="Trulli" width="110" height="150">
-<h1>EL FARO</h1>
+<h1>
+<img id="img-center" src="faro3.png" alt="Trulli" width="80" height="120"><marquee scrollamount = "15px">EL FARO</marquee></h1>
 <link  rel="stylesheet"href="estilo.css">
 <link href="https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@500&family=Oswald&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <div class="wrap">
+  <footer>
+ <h5><marquee scrollamount = "2px" behavior ="alternate">Interesados en trabajar hacer doble click <a href="https://www.laborum.cl/en-region-metropolitana/santiago/empleos.html"><font color="Olive">Aquí</font></a>
+  &nbsp;&nbsp;Planes moviles hacer doble click <a href="https://www.entel.cl/planes/oferta-portabilidad/?dclid=&gclid=Cj0KCQjw6pOTBhCTARIsAHF23fJh9Ww79Ag6Ih7F9yn_vclfkdZBK5V2W2B4FREJVM7WXLThyiOGY9kaAkN5EALw_wcB"><font color="Olive">Aquí</font></a>
+  &nbsp;&nbsp;Comprar bonos de fonasa en linea hacer doble click <a href="https://beneficiarios.fonasa.cl/Fonasa-beneficiarios/#!/login"><font color="Olive">Aquí</font></a>
+  &nbsp;&nbsp;Planes internet hogar hacer doble click <a href="https://ofertasmovistar.cl/hogar-internet?tsource=2147&utm_source=google&utm_medium=search&utm_campaign=telemark&utm_term=keyword&utm_content=brand&gclid=Cj0KCQjw6pOTBhCTARIsAHF23fIdEIMqhs3SeiiMGtuo1gMWQ9TYqAfwZE1j3mQw_CbLzPyz8HNm654aAhwLEALw_wcB"><font color="Olive">Aquí</font></a>
+  &nbsp;&nbsp;Bonos del estado hacer doble click <a href="https://www.chileatiende.gob.cl/temas/bonos"><font color="Olive">Aquí</font></a>
+  &nbsp;&nbsp;Banco Estado hacer doble click <a href="https://www.bancoestado.cl/imagenes/_personas/home/default.asp"><font color="Olive">Aquí</font></a>
+</marquee></h5>
+</footer>
+
+
+
+  <footer>
+  
     <div class="widget">
       <div class="fecha">
         <p id="diasemana" class="diasemana" ></p>
@@ -24,13 +37,12 @@
         <p id="horas" class="horas"></p>
         <p>:</p>
         <p id="minutos" class="minutos" ></p>
-        <div class="caja-segundos">
         <p id="ampm" class="ampm"></p>
         <p id="segundos" class="segundos"></p>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
   <script src="fecha.js"></script>
   
   
@@ -49,7 +61,7 @@
 
         <label for="mensaje">Describir el articulo</label><br>
 
-        <textarea id="mensaje" cols="30" rows="5"></textarea>
+        <textarea id="mensaje" cols="30" rows="2"></textarea>
 
       </div>
 
@@ -61,11 +73,14 @@
 
     </form>
     <script src="leerTexto.js"></script>
- <footer>
- <p2 style="color:#31231e">Inicio</p2>
- <p2 style="color:#31231e">Noticias</p2>
- <p2 style="color:#31231e">Deportes</p2>
- <p2 style="color:#31231e">Negocios</p2>
+    <footer>
+ <ul class="menu">
+ 
+  <li><a href="#">Inicio</a></li>
+  <li><a href="#">Noticias</a></li>
+  <li><a href="#">Deportes</a></li>
+  <li><a href="#">Negocios</a></li>
+ </ul>
 </footer>
 <style>
 table,th,td {
@@ -74,9 +89,9 @@ table,th,td {
 </style>
 
 
-<h2>Sección Noticias</h2>
+<h3>Sección Noticias</h3>
 
-<table style="width:50%">
+<table style="width:30%">
    
 
 
@@ -130,8 +145,8 @@ table,td {
   border:1px solid black;
 }
 </style>
-<h2>Sección Deportes</h2> 
-<table style="width:50%">
+<h3>Sección Deportes</h3> 
+<table style="width:30%">
  <tr>
     <td>Aleix Espargaró logra la tercera 'pole' de su carrera, la primera con Aprilia.
 </td>
@@ -146,21 +161,30 @@ table,td {
 </table>
 
 
-<h2>Sección Negocios</h2> 
-<h3>Ikea te pagará por tus muebles viejos</h3>
-<p> ¿No puedes soportar ese librero viejo y la mesa de comedor con las sillas que no combinan que alguna vez pensaste que se veían tan geniales? Si los compraste en Ikea, la empresa te pagará por devolverlos. </p>
-<h3>Esta nueva tecnología publicitaria en los refrigeradores de tiendas no tiene a todos contentos</h3>
-<p> Un programa piloto de las farmacias Walgreens está reemplazando las puertas de vidrio de los refrigeradores con pantallas digitales interactivas, gracias a una tecnología desarrollada por la empresa Cooler Screens. </p>
-<h3>Rusia ya no es una opción para los inversores</h3>
-<p> Varios de los principales proveedores de índices en Estados Unidos han retirado las acciones rusas de los índices a un precio de "cero" o "efectivamente cero". </p>
+<h3>Sección Negocios</h3> 
+<table style="width:30%">
+<tr>
+<td> Te pagaran por tus muebles viejos.
+ ¿No puedes soportar ese librero viejo y la mesa de comedor con las sillas que no combinan que alguna vez pensaste que se veían tan geniales? Si los compraste en Ikea, la empresa te pagará por devolverlos. </td>
+</tr>
+<tr>
+<td> Nueva tecnología publicitaria en los refrigeradores de tiendas no tiene a todos contentos.
+ Un programa piloto de las farmacias Walgreens está reemplazando las puertas de vidrio de los refrigeradores con pantallas digitales interactivas, gracias a una tecnología desarrollada por la empresa Cooler Screens.</td>
+</tr>
+<tr>
+<td>Rusia ya no es una opción para los inversores.
+Varios de los principales proveedores de índices en Estados Unidos han retirado las acciones rusas de los índices a un precio de "cero" o "efectivamente cero". </td>
+</tr>
+</table>
 </body>
 <form class="form">
   <div class="form_container">
-    <h3 class="form_container">Contáctame</h3>
+    <h3 class="form_container">Contactar</h3>
     <input type="text" class="form_input" placeholder="Nombre">
     <textarea class="form_input form_input--message" placeholder="Mensaje:"></textarea>
     <input type="submit" value="Enviar" class="forma__cta">
 
   </div>
 </form>
+
 </html>
