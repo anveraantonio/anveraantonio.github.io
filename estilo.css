@@ -18,12 +18,14 @@ tr:hover {
     
 }
  footer {
-   
     background-color: #c9d2d0;
     text-align: center;
+    
+    
 }
 h1 { background-color: #c9d2d0;
      text-align: center;
+    
      
 }
 h2:hover {
@@ -42,14 +44,13 @@ h2:hover {
     text-align: center;
     font-size: 0.8rem;
     margin-bottom: 0.2125rem;
-  
-    
 }
 .reloj {
     font-family: 'Oswald',sans-serif ;
     text-align: center;
     font-size: 0.7rem;
     margin-bottom: 0.3125rem;
+    
 }
 .reloj .segundos,
 .reloj .ampm {
@@ -58,11 +59,13 @@ h2:hover {
     text-align: center;
     font-size: 0.7rem;
     display:inline-block;
+    
 }
 .form {
     font-size: 1em;
     text-align: center;
     background:rgba(149, 162, 153, 0.5);
+    
 }
 
 h3:hover {
