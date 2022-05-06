@@ -4,6 +4,7 @@
  $email = $_POST['email'] ;
  $fecha = $_POST['fecha'];
  $fono = $_POST['fono'];
+ $edad = $_POST['edad'];
  //echo "I love $nombre, $email, $fecha, $fono!";
 $misolicitud = new Solicitud($_POST['nombre'], $_POST['email'], $_POST['fecha'], $_POST['fono'], $_POST['edad']);
 
